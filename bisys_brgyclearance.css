@@ -1,0 +1,187 @@
+body {
+  background-repeat: no-repeat;
+  margin: 0px;
+  background: url(bisys_assets/bisys_bg1.png);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-inline: 20px;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+li a:hover {
+  border-bottom: 3px solid #3A50EA;
+  color: #3A50EA;
+  transition: border-width 0.2s linear;
+}
+
+.navbar {
+  height: 10%;
+  box-shadow: 5px 2px 10px #B4B4B4;
+}
+
+.active {
+  border-bottom: 3px solid #3A50EA;
+  color: #3A50EA;
+}
+
+
+.logo {
+  height: 30%;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.up {
+  float: left;
+  height: 7%;
+  width: 7%;
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  
+}
+
+.right {
+  width: 50%;
+  height: 80%;
+  right: 0;
+  padding-bottom: 10px;
+  align-content: top;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.lower {
+  height: 10%;
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+  width: 50%;
+  align-content: top;
+  overflow-y: hidden;
+  background-color: white;
+
+}
+
+.doc {
+  padding: 50px;
+  padding-left: 150px;
+  transform: scale(.8);
+  transform-origin: 0% 0% 0px;
+
+}
+
+.residenttable {
+  color: #000000;
+  font-size: 14px;
+  font-family: "Century Gothic";
+  width: 90%;
+  height: 30%;
+  text-align: center;
+  background-color: #ffffff00;
+  padding: 10px;
+  overflow: scroll;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 5px 2px 10px #888888;
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-left: 50px;
+  overflow-y: scroll;
+  
+}
+
+h1 {
+  font-family: "Montserrat";
+
+}
+
+.selectcan {
+  box-shadow: 5px 2px 10px #888888;
+  padding-bottom: 20px;
+  width: 50%;
+  position: fixed;
+  background: url(bisys_assets/bisys_bg1.png);
+}
+
+.print {
+  font-family: "Montserrat";
+  width: 150px;
+  background-color: #609453;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.print:hover {
+  background-color: #72b063;
+  color: #FFF;
+}
+
+.search {
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.select {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Century Gothic";
+}
+
+.cancel {
+  font-family: "Montserrat";
+  width: 150px;
+  background-color: #F14F4F;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.cancel:hover {
+  background-color: #F67A7A;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

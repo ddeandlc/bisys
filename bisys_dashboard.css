@@ -1,0 +1,105 @@
+body {
+  margin: 0px;
+  background: url(bisys_assets/bisys_bg1.png);
+}
+
+h2 {
+  font-family: "Montserrat";
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-inline: 20px;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+li a:hover {
+  border-bottom: 3px solid #3A50EA;
+  color: #3A50EA;
+  transition: border-width 0.2s linear;
+}
+
+.navbar {
+  height: 10%;
+  box-shadow: 5px 2px 10px #B4B4B4;
+}
+
+.active {
+  border-bottom: 3px solid #3A50EA;
+  color: #3A50EA;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+
+h2, h1 {
+  font-family: "Montserrat";
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.right {
+  width: 50%;
+  right: 0px;
+  margin: 0;
+  background-color: 
+}
+
+.left {
+  width: 50%;
+  margin: 0px;
+}
+
+.reports {
+  box-shadow: 5px 2px 10px #888888;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 2px solid #696969;
+}
+
+.count1 {
+  font-family: "Century Gothic";
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.count2 {
+  font-family: "Century Gothic";
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.up {
+  float: left;
+  height: 7%;
+  width: 7%;
+}
